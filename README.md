@@ -1,67 +1,72 @@
-
-<div align = "center">
-  <image src="docs/images/logo.png" alt ="" width="100px" height="100px">
-  <h1 align="center">AgroCam</h1>
+<div align="center">
+  <h1><b>Highest Demanded Location Prediction System for Taxi Drivers</b></h1>
 </div>
-<h4 align="center"> Measure Leaf Area | React Native | Identify the plant </h4>
+   
+<h3 align="center">Highest Demanded Location Prediction System for Taxi Drivers 🚖 | Optimized Fleet Management 📈 | Enhanced Customer Experience 🌟</h3>
 
 <div align="center">
-    <a href="https://github.com/cepdnaclk/e19-co227-Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit/issues">
-        <img src="https://img.shields.io/github/issues/cepdnaclk/e19-co227-Mobile-app-to-measure-the-area-of-a-leaf-flower-or-fruit" alt="GitHub issues">
+    <a href="https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis/issues">
+        <img src="https://img.shields.io/github/issues/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis" alt="GitHub issues">
     </a>
-    <a href="https://github.com/bambara123/Food-Delivery-Website-Project-C0226/pulls">
-        <img src="https://img.shields.io/github/issues-pr/cepdnaclk/e19-3yp-3d-led-cube-holographical-display" alt="GitHub pull requests">
+    <a href="https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis/pulls">
+        <img src="https://img.shields.io/github/issues-pr/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis" alt="GitHub pull requests">
     </a>
-    <a href="https://github.com/bambara123/Food-Delivery-Website-Project-C0226/releases">
-        <img src="https://img.shields.io/github/downloads/cepdnaclk/e19-3yp-3d-led-cube-holographical-display/total" alt="GitHub downloads">
+    <a href="https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis/releases">
+        <img src="https://img.shields.io/github/downloads/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis/total" alt="GitHub downloads">
     </a>
-    <a href="https://github.com/bambara123/Food-Delivery-Website-Project-C0226/releases">
-        <img src="https://img.shields.io/github/v/release/cepdnaclk/e19-3yp-3d-led-cube-holographical-display" alt="GitHub release">
+    <a href="https://github.com/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis/releases">
+        <img src="https://img.shields.io/github/v/release/cepdnaclk/e19-co544-Demand-Location-Prediction-For-Taxis" alt="GitHub release">
     </a>
 </div>
 
-## 📜 Table of Content
+<br></br>
 
 <ol style="list-style-type: decimal;">
   <li><a href="#1-introduction">Introduction</a></li>
-  <li><a href="#2-features">Features</a></li>
-  <li><a href="#4-solution-architecture">Solution Architecture</a></li>
-  <li><a href="#5-start-using">Start Using</a></li>
+  <li><a href="#2-problem">Problem</a></li>
+  <li><a href="#3-detailed-solution">Detailed Solution</a></li>
+  <li><a href="#4-data-collection">Data Collection</a></li>
+  <li><a href="#5-exploratory-data-analysis">Exploratory Data Analysis</a></li>
+  <li><a href="#6-getting-started">Getting Started</a></li>
   <li><a href="#7-contributors">Contributors</a></li>
 </ol>
 
-## <a id="1-introduction"></a>🚀 Introduction
+## <a id="1-introduction"></a> 📚 Introduction
 
-- The crop department of agriculture faculty is expecting to use a mobile app to measure the area of a leaf, flower or fruit.Through advanced image analysis algorithms, AgroCam precisely calculates areas, catering to the irregular shapes often found in nature. Our user-friendly interface guides you through the process, making it accessible even to those new to digital measurement techniques.
+This project leverages machine learning to predict taxi ride demand across different regions. By forecasting ride numbers for specific locations and times, we aim to create a more efficient and profitable ecosystem for taxi services.
 
-## <a id="2-features"></a>🌟 Features
+## <a id="2-problem"></a> 🚧 Problem
 
-- Plant Identification: Utilize image recognition algorithms to identify plant species from scanned images.
-- Geolocation Integration: Implement geolocation services to determine the location where the image was captured.
-- Database Integration: Integrate with plant species databases to retrieve additional information about identified plants.
-- Leaf Area Detection: Develop algorithms to accurately measure leaf area from images.
-- Report Generation: Automatically generate detailed reports including plant species, leaf area measurements, and location data.
-- Cross-Platform Sharing: Enable sharing of generated reports across various platforms such as email, messaging apps, and social media.
-- User-Friendly Interface: Design an intuitive interface for easy navigation and seamless user experience.
+### For Taxi Drivers:
+- **Less Availability:** Long waits without passengers.
+- **Less Profit:** Inefficient positioning reduces earnings.
+- **Safety Concerns:** Operating in less secure areas.
 
-## <a id="4-solution-architecture"></a>🏗️ Solution Architecture
+### For Customers:
+- **High Stand Time:** Long wait times for taxis.
+- **Time Wastage:** Delays due to inefficient taxi distribution.
+- **Unfair Pricing:** Surge pricing during peak demand.
 
-This is the high level overview of the system.
-<br></br>
-<p><img src="docs/images/Geolocation API (2).png" alt="Solution_Archi"></p>
+## <a id="3-detailed-solution"></a> 🛠️ Detailed Solution
 
-## <a id="5-start-using"></a>🎉 Start Using
+(Add your detailed solution here.)
 
-- We will make a release soon.
+## <a id="4-data-collection"></a> 📊 Data Collection
 
-  
-## <a id="7-contributors"></a>👥 Contributors 
+Our primary data source is the New York City Taxi and Limousine Commission website. From this resource, we can obtain approximately 20 features categorized by monthly data spanning over 20 years.
 
-- <a href = "https://github.com/Bambara123">Kavindu Bambaragama</a>
-- <a href = "https://github.com/Madhushanka00">Mahesha Madhushanka</a>
-- <a href = "https://github.com/DhinushikaAbrew">Dhinushika Abrew</a>
-- <a href = "https://github.com/uthsaraiw">Uthsara Wickramaarachchi</a>
+## <a id="5-exploratory-data-analysis"></a> 🔍 Exploratory Data Analysis
 
----
+(Add your exploratory data analysis here.)
 
-<p>Check our <a href = "https://cepdnaclk.github.io/e19-3yp-3d-led-cube-holographical-display/"> project page</a> for more details.</p>
+## <a id="6-getting-started"></a> 🚀 Getting Started
+
+Anybody can explore this project and gain insights. It's easy.
+
+1. Clone the repository to the htdocs folder inside the XAMPP installation location.
+2. Start improving or start your own model.
+
+## <a id="7-contributors"></a> 🤝 Contributors
+
+- Mahesha Madhushanka ([@Madhushanka00](https://github.com/Madhushanka00)) 
+- Dineth Udugamasuriya ([@sath8](https://github.com/sath8))
